@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 99.5 46">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ffe175;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        font-size: 56px;
+      }
+
+      .cls-2, .cls-3 {
+        fill: #2d3142;
+        font-family: Impact, Impact;
+      }
+
+      .cls-3 {
+        font-size: 54.8px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-1" y="1.7" width="30" height="44.3"/>
+  <text class="cls-2" transform="translate(32.5 46)"><tspan x="0" y="0">D</tspan></text>
+  <text/>
+  <text class="cls-3" transform="translate(65 45)"><tspan x="0" y="0">U</tspan></text>
+</svg>

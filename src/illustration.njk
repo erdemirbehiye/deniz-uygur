@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+title: Illustration
+eleventyNavigation:
+  key: illustration
+  title: illustration
+  order: 2
+---
+
+<div class="col-6 col-md-5 col-sm-4 col-xs-6">
+  {% for elemento in ilus %}
+    {% include 'components/project-ilu.njk' %}
+  {% endfor %}
+</div>
+
+<div class="col-6 col-md-5 col-sm-4 col-xs-6 ilustracion-texto">
+  <h1 class="text-headline font-2">illustration</h1>
+  <p>
+Welcome to my illustration gallery. Here, you'll find a collection of my detailed and expressive artworks, each piece telling its own unique story. I draw inspiration from everyday life, translating emotions and ideas into visual narratives that resonate with viewers. Explore my illustrations and experience the artistry that brings my visions to life.  </p>
+
+</div>

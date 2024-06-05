@@ -1,0 +1,30 @@
+---
+layout: layouts/full.njk
+title: Fotografía
+eleventyNavigation:
+  key: photography
+  title: photography
+  order: 3
+---
+<div class="fotografia-hero">
+  {% set elemento = {"imagen": "foto-1.jpg"} %}
+  {% include 'components/project.njk' %}
+</div>
+
+<div class="container grid fotografia-contenidos">
+  <div class="fotografia-titulo">
+    <h1 class="text-headline font-2">
+      photography
+    </h1>
+  </div>
+
+  <div class="fotografia-texto">
+    <p>
+Welcome to my photography gallery. Here, you'll find a diverse collection of portraits and artistic compositions, capturing the essence of individuals and objects with a unique perspective. My focus is on product-oriented photography, blending creativity with precision to highlight beauty in everyday scenes. Explore my work and experience the stories each photograph tells.    </p>
+  </div>
+
+  {% for elemento in fotos %}
+    {% include 'components/project.njk' %}
+  {% endfor %}
+
+</div>
