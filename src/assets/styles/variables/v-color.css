@@ -10,14 +10,14 @@ html {
   --primary-2: #8b92b1;
   --primary-1: #9fa5bf;
 
-  --secondary-8: #db0400;
-  --secondary-5: #fd0500;
-  --secondary-6: #ff2420;
-  --secondary-5: #ff4642;
-  --secondary-4: #ff6764;
-  --secondary-3: #ff8886;
-  --secondary-2: #ffaaa8;
-  --secondary-1: #fff0f0;
+  --secondary-8: #FFCB10;
+  --secondary-5: #FFD232;
+  --secondary-6: #FFDA53;
+  --secondary-5: #FFE175;
+  --secondary-4: #FFECA7;
+  --secondary-3: #FFEFB4;
+  --secondary-2: #FFF1C0;
+  --secondary-1: #FFF7D9;
 
   --primary: var(--primary-8);
 
